@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karan Kartik`s Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" class="rel" />
+    <script
+      src="https://kit.fontawesome.com/b5b5636bf7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzKVkdAi_JPlfT6q-yyGztpibUpNqd9opTMA&s"
+            alt=""
+            class="src"
+          />
+          <ul id="menu-bar">
+            <li><a href="#header" class="href">Home</a></li>
+            <li><a href="#about" class="href">About</a></li>
+            <li><a href="#services" class="href">Services</a></li>
+            <li><a href="#portfolio" class="href">Portfolio</a></li>
+            <li><a href="#contact" class="href">Contact</a></li>
+            <i class="fa-solid fa-x" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>UI/UX Designer</p>
+          <h1>
+            Hi! I'm <span>Karan</span> <br />
+            Kartik From India
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col1">
+            <img
+              src="Images/Snapchat-1298475066.jpg"
+              class="imgWH"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <div class="about-col2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="details">
+              I am seeking a beginner role that will allow me to improve and
+              explore my technical knowledge that I have gained at DR. Ambedkar
+              Institute of Technology for the last four years,and also some
+              technical skills which i learned from DUCAT and Youtube.
+            </p>
+            <div class="tag-titles">
+              <p class="tag-links active-skills" onclick="opentag('skills')">
+                Skills
+              </p>
+              <p class="tag-links" onclick="opentag('experience')">
+                Experience
+              </p>
+              <p class="tag-links" onclick="opentag('education')">Education</p>
+            </div>
+            <div class="tag-contents active-tag" id="skills">
+              <ul class="for-res">
+                <li><span>UI/UX</span><br />Designing Web/App Interfaces</li>
+                <li><span>Web Development</span><br />Web App Development</li>
+                <!-- <li><span>App Development</span><br />Building Android Apps</li> -->
+                <li>
+                  <span>HTML / CSS / JS / ReactJs</span><br />Building Web And
+                  Design
+                </li>
+              </ul>
+            </div>
+
+            <div class="tag-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2024 - Current</span><br />Node.js Full Stack Training
+                  from Ducat
+                </li>
+                <li>
+                  <span>2024</span><br />Web Development Designing Oasis
+                  Infobyte
+                </li>
+                <li>
+                  <span>2023</span><br />Content Developer at KWIKFRIEND EDUCOM
+                  PVT.LTD.
+                </li>
+              </ul>
+            </div>
+
+            <div class="tag-contents" id="education">
+              <ul>
+                <li><span>2024</span><br />Node.js full stack from Ducat</li>
+                <li><span>2019-2023</span><br />B.Tech from AKTU</li>
+                <li>
+                  <span>2018</span><br />Intermediate from St.GPS Varanasi
+                </li>
+                <li><span>2016</span><br />High School from St.GPS Varanai</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              I designed many website like
+              <span class="spandesign">(Tribute page),(Guess the number)</span>
+              with the help HTML and CSS, Which are very interactive and
+              attractive.
+            </p>
+            <a href="" class="learn-more">learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-react"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              I designed many website like
+              <span class="spandesign"
+                >(BGMI Pro's) (Guess The Number),(Online Calculator),(Bubble
+                Click)</span
+              >
+              with the help HTML and CSS and JavaScript and also I used event
+              handling, Which make it interactive and attractive.And user can
+              also experience it by its given features.
+            </p>
+            <a href="" class="learn-more">learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>WebAPP Development</h2>
+            <p>
+              I designed many website like
+              <span class="spandesign">
+                <br />(E-commerce-WebApp),(TODO APP),(Animal),(Add Healthy
+                Food)</span
+              >
+              with the help HTML ,CSS ,JavaScript,ReactJs and also I used event
+              handling, Which make it interactive and attractive.And user can
+              also experience it by its given features.Currently i am also
+              working on some project
+            </p>
+            <a href="" class="learn-more">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="Images/Screenshot (89).png" class="s" />
+            <div class="workdone">
+              <h3>E-Commerce WebAPP</h3>
+              <p>
+                An E-commerce WebApp , which i designed with the help my skills
+                and Youtube video in which I used ReactJs , React-DOM ,
+                React-Router , Hooks , Context API
+              </p>
+              <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/Screenshot (88).png" class="s" />
+            <div class="workdone">
+              <h3>Personal Portfolio</h3>
+              <p>
+                I Created a Personal Portfolio in which I described my Work,
+                Services, Experience and a short note about me and Contact Me
+                form In Which user can connect with me It is also Responsive I
+                used HTML, CSS, JS for Creating this portfolio.
+              </p>
+              <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/imagesrc.png" class="s" />
+            <div class="workdone">
+              <h3>Some Small Project</h3>
+              <p>
+                With the help of HTML, CSS, JS, And ReactJS i created many
+                webapp and website like TODO APP, Bubble Game, Guess the number,
+                and some minor project.
+              </p>
+              <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <a href="" class="SeeBtn">See more</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="left-row">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <a
+                href="mailto:beingkartik07@gmail.com"
+                target="_blank"
+                class="ss"
+              >
+                <i class="fa-solid fa-envelope"></i>
+                beingkartik07@gmail.com</a
+              >
+            </p>
+            <p>
+              <a href="tel:8707592647" target="_blank" class="ss"
+                ><i class="fa-solid fa-phone"></i>8707592647</a
+              >
+            </p>
+            <p>
+              <a href="https://wa.me/8707592647" target="_blank" class="ss"
+                ><i class="fa-brands fa-whatsapp"></i>8707592647</a
+              >
+            </p>
+            <div class="social-icon">
+              <a href="" target="_blank"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/karan-kartik-585245241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/@BeingYoutube_Gamer"
+                target="_blank"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+              <a href="https://github.com/Karankartik07" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a href="Images/KaranCV.pdf" download class="SeeBtn btn"
+              >Download CV</a
+            >
+          </div>
+          <div class="right-row">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                rows="6"
+                maxlength="120"
+                name="Message"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="SeeBtn btn2">Submit</button>
+            </form>
+            <span id="form-updated"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>copyright © all right claimed by Mr.Kartik</p>
+    </div>
+
+    <script src="portfolio.js"></script>
+  </body>
+</html>
